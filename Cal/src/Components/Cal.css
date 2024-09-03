@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 1em;
+    margin-left: 30rem;
+    background-color: black;
+    box-shadow: -2px -2px 2px rgb(229, 25, 205),2px 2px 2px rgb(216, 41, 143);
+}
+.calc h2{
+    font-size: 35px;
+    color: rgb(207, 100, 184);
+}
+.input{
+    height: 1em;
+    width: 5em;
+    border: 2px solid rgb(192, 79, 158);
+    box-shadow: -2px -2px 2px aquamarine,2px 2px 2px aquamarine;
+    border-radius: 0.2em;
+    text-align: right;
+    color: rgb(244, 127, 238);    
+}
+button{
+    height: 3em;
+    width: 3em;
+    color: rgb(253, 53, 173);
+    background-color: aquamarine;
+    box-shadow: 3px 3px 3px rgb(197, 100, 171);
+    border-radius: 0.5em;
+}
